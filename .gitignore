@@ -1,0 +1,6 @@
+temp/
+tmp/
+bin/
+*.log
+*.env
+
