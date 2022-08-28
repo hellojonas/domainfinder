@@ -19,7 +19,7 @@ cd domainfinder/scripts
 Run the installation script
 
 ```
-./scripts/install.sh
+./install.sh
 ```
 
 ## How to run
