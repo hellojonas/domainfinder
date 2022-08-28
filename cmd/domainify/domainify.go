@@ -12,7 +12,7 @@ import (
 
 func main() {
 	rand.Seed(time.Now().UTC().UnixNano())
-	tlds := []string{".com", ".net", ".app", ".me", ".dev", ".info"}
+	tlds := []string{".com", ".net"}
 	s := bufio.NewScanner(os.Stdin)
 	allowed := "abcdefghijklmnopqrstuvwxyz1234567890-_"
 
