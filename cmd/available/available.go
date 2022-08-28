@@ -38,7 +38,7 @@ func exists(domain string) (bool, error) {
 	}
 
 	defer conn.Close()
-	_, err = conn.Write([]byte(domain + "rn"))
+	_, err = conn.Write([]byte(domain + "\r\n"))
 
 	if err != nil {
 		return false, fmt.Errorf("failed to write data to whois server. %s", err.Error())
